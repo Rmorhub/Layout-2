@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'price-card';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: $color-white;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1440px;
+  height: 100vh;
+  background-color: $color-dark;
+}
